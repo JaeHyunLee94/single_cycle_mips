@@ -15,6 +15,7 @@ begin
 		4'b1001: aluout=reg_data1^reg_data2;
 		4'b1010: aluout=reg_data2<<shamt;
 		4'b1100: aluout=reg_data2>>shamt;
+		default: aluout=reg_data1+reg_data2;
 	endcase
 end
 

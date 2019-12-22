@@ -1,4 +1,4 @@
-module data_mem (memRead, memWrite,address, write_data, read_data);
+module data_mem(memRead, memWrite,address, write_data, read_data);
 		    
     input            memRead, memWrite;
     input    [31:0]  address, write_data;
@@ -8,10 +8,10 @@ module data_mem (memRead, memWrite,address, write_data, read_data);
     parameter        size = 64;	// data mem size
     integer          i;
 
-    wire     [31:0]  index;
+  //  wire     [31:0]  index;
     reg      [31:0]  register_memory [0:size-1];
 
-    assign index = address >> 2;  
+   // assign index = address >> 2;  
 
     initial
     begin
@@ -23,10 +23,10 @@ module data_mem (memRead, memWrite,address, write_data, read_data);
     always @ (memWrite, write_data)
     begin
         if (memWrite == 1'b1) begin
-            register_memory[index] = write_data;
+            register_memory[address] = write_data;
         end
     end
 
- assign read_data = (memRead == 1'b1)?register_memory[index]:32'b0;
+ assign read_data = (memRead == 1'b1)?register_memory[address]:32'b0;
 
 endmodule

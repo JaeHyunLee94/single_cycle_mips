@@ -6,7 +6,7 @@ output reg [3:0] alucontrol;
 always @(aluop, func)
 begin
     case(aluop)
-      2'b00: alucontrol <= (func==6'b001011)? 4'b0001:4'b0010;  // add,ori
+      2'b00: alucontrol <= 4'b0010;  // add
       2'b01: alucontrol <= 4'b0110;  // sub
       default: case(func)          // RTYPE
           6'b100000: alucontrol <= 4'b0010; // add
@@ -16,7 +16,7 @@ begin
           6'b100100: alucontrol <= 4'b0000; // and
           6'b100101: alucontrol <= 4'b0001; // or
           6'b101011: alucontrol <= 4'b0111; // sltu
-          default:   alucontrol <= 4'b0xxx; // ???
+          default:   alucontrol <= 4'b0001; // ori
         endcase
     endcase
 end

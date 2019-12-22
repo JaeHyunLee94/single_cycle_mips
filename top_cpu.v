@@ -8,7 +8,7 @@ module top_cpu(rst,clk,seg1,seg2,seg3,seg4,seg5,seg6);
     wire [15:0] out_result;
    
     clk_dll u0(rst, clk, out_clk);  // 50MHz -> 1Hz  divide
-    mips_cpu cpu(rst,outclk,out_pc,out_result);
+    mips_cpu cpu(rst,out_clk,out_pc,out_result);
 
     assign  digit5=out_pc%10;
     assign  digit6=(out_pc-digit5)/10;

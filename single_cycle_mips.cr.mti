@@ -5,6 +5,20 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	clk_dll
 
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/mux_5.v {1 {vlog -work work -stats=none {C:\Users\leeja\Desktop\Work\single_cycle_mips\mux_5.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_5
+
+Top level modules:
+	mux_5
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/mux_32.v {1 {vlog -work work -stats=none {C:\Users\leeja\Desktop\Work\single_cycle_mips\mux_32.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mux_32
+
+Top level modules:
+	mux_32
+
 } {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/instuction_mem.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/instuction_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module instruction_mem
@@ -54,13 +68,6 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 Top level modules:
 	tb_mips_cpu
 
-} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/aludec.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/aludec.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module aludec
-
-Top level modules:
-	aludec
-
 } {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/seg7.v {1 {vlog -work work -stats=none {C:\Users\leeja\Desktop\Work\single_cycle_mips\seg7.v}
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module seg7
@@ -74,6 +81,13 @@ Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  
 
 Top level modules:
 	tb_top_cpu
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/sign_extend.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/sign_extend.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module sign_extend
+
+Top level modules:
+	sign_extend
 
 } {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/data_mem.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/data_mem.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
