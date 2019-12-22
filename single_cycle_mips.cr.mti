@@ -1,0 +1,99 @@
+C:/Users/leeja/Desktop/Work/single_cycle_mips/clk_dll.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/clk_dll.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clk_dll
+
+Top level modules:
+	clk_dll
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/instuction_mem.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/instuction_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module instruction_mem
+
+Top level modules:
+	instruction_mem
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/mips_cpu.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/mips_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module mips_cpu
+
+Top level modules:
+	mips_cpu
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/control.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/control.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module control
+
+Top level modules:
+	control
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/alu_mips.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/alu_mips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module alu_mips
+
+Top level modules:
+	alu_mips
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/pc.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/pc.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/register_mips.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/register_mips.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module register_mips
+
+Top level modules:
+	register_mips
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/tb_mips_cpu.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/tb_mips_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_mips_cpu
+
+Top level modules:
+	tb_mips_cpu
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/aludec.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/aludec.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module aludec
+
+Top level modules:
+	aludec
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/seg7.v {1 {vlog -work work -stats=none {C:\Users\leeja\Desktop\Work\single_cycle_mips\seg7.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module seg7
+
+Top level modules:
+	seg7
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/tb_top_cpu.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/tb_top_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_top_cpu
+
+Top level modules:
+	tb_top_cpu
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/data_mem.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/data_mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module data_mem
+
+Top level modules:
+	data_mem
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/top_cpu.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/top_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module top_cpu
+
+Top level modules:
+	top_cpu
+
+} {} {}} C:/Users/leeja/Desktop/Work/single_cycle_mips/jump_concat.v {1 {vlog -work work -stats=none C:/Users/leeja/Desktop/Work/single_cycle_mips/jump_concat.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module jump_concat
+
+Top level modules:
+	jump_concat
+
+} {} {}}
